@@ -93,7 +93,7 @@ elif courselettergrade3 == "D" or courselettergrade3 == "d":
 else:
   gradepoint3 = 0;
 
-print(f"Grade point for course 1 is: {gradepoint3}");
+print(f"Grade point for course 3 is: {gradepoint3}");
 
 GPA = (gradepoint1 * coursecredit1 + gradepoint2 * coursecredit2 + gradepoint3 * coursecredit3) / (coursecredit1 + coursecredit2 + coursecredit3) 
 print(f"Your GPA is: {GPA}");
