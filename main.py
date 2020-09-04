@@ -1,5 +1,5 @@
 courselettergrade1=str(input("Enter your course 1 letter grade: "));
-coursecredit1=int(input("Enter your course 1 credit: "));
+coursecredit1=float(input("Enter your course 1 credit: "));
 
 if courselettergrade1 == "A" or courselettergrade1 == "a":
    gradepoint1 = 4.0;
@@ -32,7 +32,7 @@ print(f"Grade point for course 1 is: {gradepoint1}");
 
 
 courselettergrade2=str(input("Enter your course 2 letter grade: "));
-coursecredit2=int(input("Enter your course 2 credit: "));
+coursecredit2=float(input("Enter your course 2 credit: "));
 
 if courselettergrade2 == "A" or courselettergrade2 == "a":
    gradepoint2 = 4.0;
@@ -64,10 +64,10 @@ else:
 print(f"Grade point for course 2 is: {gradepoint2}");
 
 courselettergrade3=str(input("Enter your course 3 letter grade: "));
-coursecredit3=int(input("Enter your course 3 credit: "));
+coursecredit3=float(input("Enter your course 3 credit: "));
 
 if courselettergrade3 == "A" or courselettergrade3 == "a":
-   gradepoint3 = 4.0;
+  gradepoint3 = 4.0;
    
 elif courselettergrade3 =="A-" or courselettergrade3 == "a-":
   gradepoint3 = 3.67;
