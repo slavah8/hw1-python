@@ -28,6 +28,8 @@ elif courselettergrade1 == "D" or courselettergrade1 == "d":
 
 else:
   gradepoint1 = 0.0;
+  
+float(gradepoint1);
 
 print(f"Grade point for course 1 is: {gradepoint1}");
 
@@ -62,6 +64,7 @@ elif courselettergrade2 == "D" or courselettergrade2 == "d":
 else:
   gradepoint2 = 0.0;
 
+float(gradepoint2);
 print(f"Grade point for course 2 is: {gradepoint2}");
 
 courselettergrade3=str(input("Enter your course 3 letter grade: "));
@@ -94,8 +97,9 @@ elif courselettergrade3 == "D" or courselettergrade3 == "d":
 else:
   gradepoint3 = 0.0;
 
+float(gradepoint3);
 print(f"Grade point for course 3 is: {gradepoint3}");
 
 GPA = (gradepoint1 * coursecredit1 + gradepoint2 * coursecredit2 + gradepoint3 * coursecredit3) / (coursecredit1 + coursecredit2 + coursecredit3) 
-
+float(GPA);
 print(f"Your GPA is: {GPA}");
