@@ -1,3 +1,5 @@
+#Author: Slava Hlushko vqh5091@psu.edu
+
 courselettergrade1=str(input("Enter your course 1 letter grade: "));
 coursecredit1=float(input("Enter your course 1 credit: "));
 
@@ -96,4 +98,5 @@ else:
 print(f"Grade point for course 3 is: {gradepoint3}");
 
 GPA = (gradepoint1 * coursecredit1 + gradepoint2 * coursecredit2 + gradepoint3 * coursecredit3) / (coursecredit1 + coursecredit2 + coursecredit3) 
+
 print(f"Your GPA is: {GPA}");
