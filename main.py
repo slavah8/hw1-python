@@ -93,7 +93,7 @@ elif courselettergrade3 == "D" or courselettergrade3 == "d":
   gradepoint3 = 1.0;
 
 else:
-  gradepoint3 = 0;
+  gradepoint3 = 0.0;
 
 print(f"Grade point for course 3 is: {gradepoint3}");
 
