@@ -1,5 +1,4 @@
 #Author: Slava Hlushko vqh5091@psu.edu
-
 courselettergrade1=str(input("Enter your course 1 letter grade: "));
 coursecredit1=float(input("Enter your course 1 credit: "));
 
